@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://cwxdiohqqdkcr"]
+
+[ext_resource type="Script" uid="uid://c37vsrry6w4f" path="res://panel.gd" id="1_ukgro"]
+[ext_resource type="Texture2D" uid="uid://cabe1jpgbotds" path="res://img/对话框.png" id="2_sxq3l"]
+[ext_resource type="Texture2D" uid="uid://cflpdth28wi51" path="res://img/乌乌立绘.png" id="3_d50np"]
+[ext_resource type="Texture2D" uid="uid://ij1vxfo0i27i" path="res://img/姓名框.png" id="3_qc0i0"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1728958881]
+
+[node name="Panel" type="Panel" parent="." unique_id=1876906367]
+offset_right = 1158.0
+offset_bottom = 658.0
+script = ExtResource("1_ukgro")
+
+[node name="Button" type="Button" parent="Panel" unique_id=1326867075]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="TextureRect2" type="TextureRect" parent="Panel" unique_id=852685538]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 433.0
+offset_right = 75800050.0
+offset_bottom = 21600432.0
+scale = Vector2(1e-05, 1e-05)
+texture = ExtResource("2_sxq3l")
+
+[node name="TextureRect3" type="TextureRect" parent="Panel" unique_id=402439325]
+layout_mode = 0
+offset_left = 711.0
+offset_top = 255.0
+offset_right = 18600716.0
+offset_bottom = 40900260.0
+scale = Vector2(1e-05, 1e-05)
+texture = ExtResource("3_d50np")
+
+[node name="TextureRect" type="TextureRect" parent="Panel" unique_id=1987647063]
+layout_mode = 0
+offset_left = 800.00006
+offset_top = 468.00003
+offset_right = 12500792.0
+offset_bottom = 16800468.0
+scale = Vector2(1e-05, 1e-05)
+texture = ExtResource("3_qc0i0")
+
+[node name="TextLabel" type="Label" parent="Panel" unique_id=79497131]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 501.0
+offset_right = 756.0
+offset_bottom = 606.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+
+[node name="NameLabel" type="Label" parent="Panel" unique_id=429565707]
+layout_mode = 0
+offset_left = 826.0
+offset_top = 507.0
+offset_right = 878.0
+offset_bottom = 602.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)

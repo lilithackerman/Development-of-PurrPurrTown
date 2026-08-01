@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c4an27spm0lh8"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mf4mk"]
+load_path = "res://.godot/imported/测试.png-e5a56ca1666e9d67b58e75c926da8cb3.ctex"
+
+[node name="Node2D" type="Node2D" unique_id=524786907]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1895955728]
+position = Vector2(556, 266)
+scale = Vector2(0.5, 0.5)
+texture = SubResource("CompressedTexture2D_mf4mk")
