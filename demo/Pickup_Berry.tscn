@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://b3yklfup5mmv3"]
+
+[ext_resource type="Script" uid="uid://dygqfbpeyyyin" path="res://script/pickup.gd" id="1_7faio"]
+[ext_resource type="Texture2D" uid="uid://qjvtsek4eity" path="res://img/PlasticBottle.png" id="2_tnadi"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3xd07"]
+radius = 6.0
+height = 28.0
+
+[node name="Area2D" type="Area2D" unique_id=108327865]
+script = ExtResource("1_7faio")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=25707159]
+position = Vector2(407.0766, 254.72116)
+scale = Vector2(0.3500828, 0.3500828)
+texture = ExtResource("2_tnadi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=784684915]
+position = Vector2(407, 255)
+shape = SubResource("CapsuleShape2D_3xd07")

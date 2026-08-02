@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cwxdiohqqdkcr"]
 
-[ext_resource type="Script" uid="uid://c37vsrry6w4f" path="res://panel.gd" id="1_ukgro"]
+[ext_resource type="Script" uid="uid://c37vsrry6w4f" path="res://script/panel.gd" id="1_ukgro"]
 [ext_resource type="Texture2D" uid="uid://cabe1jpgbotds" path="res://img/对话框.png" id="2_sxq3l"]
 [ext_resource type="Texture2D" uid="uid://cflpdth28wi51" path="res://img/乌乌立绘.png" id="3_d50np"]
 [ext_resource type="Texture2D" uid="uid://ij1vxfo0i27i" path="res://img/姓名框.png" id="3_qc0i0"]
@@ -14,8 +14,10 @@ script = ExtResource("1_ukgro")
 
 [node name="Button" type="Button" parent="Panel" unique_id=1326867075]
 layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+offset_left = 89.0
+offset_top = 406.0
+offset_right = 146.0
+offset_bottom = 449.0
 
 [node name="TextureRect2" type="TextureRect" parent="Panel" unique_id=852685538]
 layout_mode = 0
@@ -59,3 +61,5 @@ offset_top = 507.0
 offset_right = 878.0
 offset_bottom = 602.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+
+[connection signal="pressed" from="Panel/Button" to="Panel" method="_on_close_button_pressed"]

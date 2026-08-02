@@ -4,8 +4,9 @@
 [ext_resource type="Texture2D" uid="uid://dsenm5sw7ln2u" path="res://img/character.png" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://jqj5pe86xoc0" path="res://script/character_body_2d.gd" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://53w7e0ff6gw2" path="res://img/测试.png" id="4_1bvp3"]
-[ext_resource type="Script" uid="uid://e4pwsgjf4lvy" path="res://area_2d.gd" id="5_7mycd"]
+[ext_resource type="Script" uid="uid://e4pwsgjf4lvy" path="res://script/area_2d.gd" id="5_7mycd"]
 [ext_resource type="Texture2D" uid="uid://cflpdth28wi51" path="res://img/乌乌立绘.png" id="5_lquwl"]
+[ext_resource type="PackedScene" uid="uid://b3yklfup5mmv3" path="res://Pickup_Berry.tscn" id="7_272bh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0xm2m"]
 texture = ExtResource("1_ig7tw")
@@ -547,6 +548,8 @@ shape = SubResource("RectangleShape2D_6fhyq")
 
 [node name="Area2D" type="Area2D" parent="Node2D" unique_id=718669618]
 script = ExtResource("5_7mycd")
+npc_name = "乌乌"
+dialog_text = "还钱"
 
 [node name="Sprite2D" type="Sprite2D" parent="Node2D/Area2D" unique_id=1924592273]
 position = Vector2(729, 2)
@@ -556,3 +559,6 @@ texture = ExtResource("5_lquwl")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/Area2D" unique_id=257757292]
 position = Vector2(730, -19)
 shape = SubResource("CapsuleShape2D_jq8tk")
+
+[node name="Area2D2" parent="Node2D" unique_id=108327865 instance=ExtResource("7_272bh")]
+position = Vector2(-194, -153)

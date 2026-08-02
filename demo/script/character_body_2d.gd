@@ -68,3 +68,7 @@ func _input(event: InputEvent) -> void:
 		
 		# 限制缩放范围，防止拉到太远看不见，或太近只看得到眼睛
 		camera.zoom = camera.zoom.clamp(Vector2(0.5, 0.5), Vector2(3.0, 3.0))
+
+func _ready():
+	print(GameData.gold)
+	print(GameData.inventory)
