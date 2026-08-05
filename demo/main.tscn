@@ -6,7 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://53w7e0ff6gw2" path="res://img/测试.png" id="4_1bvp3"]
 [ext_resource type="Script" uid="uid://e4pwsgjf4lvy" path="res://script/area_2d.gd" id="5_7mycd"]
 [ext_resource type="Texture2D" uid="uid://cflpdth28wi51" path="res://img/乌乌立绘.png" id="5_lquwl"]
-[ext_resource type="PackedScene" uid="uid://b3yklfup5mmv3" path="res://Pickup_Berry.tscn" id="7_272bh"]
+[ext_resource type="PackedScene" uid="uid://b3yklfup5mmv3" path="res://Pickup_Berry.tscn" id="7_5vw27"]
+[ext_resource type="PackedScene" uid="uid://kii4yb5yuv3b" path="res://BagUI.tscn" id="8_5vw27"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0xm2m"]
 texture = ExtResource("1_ig7tw")
@@ -496,14 +497,18 @@ radius = 55.0
 height = 262.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jq8tk"]
-size = Vector2(526, 144)
+size = Vector2(526, 137)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6fhyq"]
 size = Vector2(32, 21)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jq8tk"]
 radius = 14.0
-height = 32.0
+height = 44.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6fhyq"]
+radius = 9.0
+height = 18.0
 
 [node name="main" type="Node2D" unique_id=457014768]
 
@@ -520,45 +525,57 @@ scale = Vector2(0.3, 0.3)
 script = ExtResource("2_h2yge")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D/CharacterBody2D" unique_id=2131026649]
-position = Vector2(-5, -0.666687)
 sprite_frames = SubResource("SpriteFrames_3xd07")
 animation = &"walk-up"
+offset = Vector2(0, -120)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/CharacterBody2D" unique_id=956901036]
-position = Vector2(0, 4.333313)
+position = Vector2(3.3333333, -120)
 shape = SubResource("CapsuleShape2D_3xd07")
 
 [node name="Camera2D" type="Camera2D" parent="Node2D/CharacterBody2D" unique_id=2098301570]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Node2D" unique_id=550067681]
 y_sort_enabled = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/StaticBody2D" unique_id=593453269]
-position = Vector2(552, -88)
-shape = SubResource("RectangleShape2D_jq8tk")
+position = Vector2(543, -6)
 
 [node name="Sprite2D" type="Sprite2D" parent="Node2D/StaticBody2D" unique_id=499462006]
-position = Vector2(547, -198)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("4_1bvp3")
+offset = Vector2(0, -450)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/StaticBody2D" unique_id=593453269]
+position = Vector2(13, -127)
+shape = SubResource("RectangleShape2D_jq8tk")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Node2D/StaticBody2D" unique_id=815954721]
-position = Vector2(535, -5)
+position = Vector2(-14, -34)
 shape = SubResource("RectangleShape2D_6fhyq")
 
-[node name="Area2D" type="Area2D" parent="Node2D" unique_id=718669618]
+[node name="Node2D2" parent="Node2D" unique_id=978585471 instance=ExtResource("7_5vw27")]
+y_sort_enabled = true
+position = Vector2(153, 75)
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Node2D" unique_id=1344394081]
+position = Vector2(-2, 5)
+
+[node name="Area2D" type="Area2D" parent="Node2D/StaticBody2D2" unique_id=1341141487]
+position = Vector2(722, 7)
 script = ExtResource("5_7mycd")
 npc_name = "乌乌"
 dialog_text = "还钱"
 
-[node name="Sprite2D" type="Sprite2D" parent="Node2D/Area2D" unique_id=1924592273]
-position = Vector2(729, 2)
+[node name="Sprite2D" type="Sprite2D" parent="Node2D/StaticBody2D2/Area2D" unique_id=1924592273]
 scale = Vector2(0.08, 0.08)
 texture = ExtResource("5_lquwl")
+offset = Vector2(0, -450)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/Area2D" unique_id=257757292]
-position = Vector2(730, -19)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/StaticBody2D2/Area2D" unique_id=257757292]
+position = Vector2(2, -53)
 shape = SubResource("CapsuleShape2D_jq8tk")
 
-[node name="Area2D2" parent="Node2D" unique_id=108327865 instance=ExtResource("7_272bh")]
-position = Vector2(-194, -153)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/StaticBody2D2" unique_id=1766031152]
+position = Vector2(722, -52)
+shape = SubResource("CapsuleShape2D_6fhyq")
+
+[node name="BagUI" parent="." unique_id=564245057 instance=ExtResource("8_5vw27")]

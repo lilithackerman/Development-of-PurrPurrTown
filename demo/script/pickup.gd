@@ -1,7 +1,7 @@
 extends Area2D
 
-@export var item_id: String = "berry"
-@export var item_name: String = "野果"
+@export var item_id: String = "PlasticBottle"
+@export var item_name: String = "塑料瓶"
 
 var player_in_range: bool = false
 
@@ -20,8 +20,12 @@ func _on_body_exited(body):
 		print("离开拾取范围")
 
 func _input(event):
-	if event is InputEventKey and event.pressed and event.keycode == KEY_F:
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
 		if player_in_range:
-			GameData.inventory.append(item_id)
-			print("捡起了：", item_name)
+			# 使用字典存储：如果物品已存在则数量+1，否则新增
+			if GameData.inventory.has(item_id):
+				GameData.inventory[item_id] += 1
+			else:
+				GameData.inventory[item_id] = 1
+			print("捡起了：", item_name, " 当前数量：", GameData.inventory[item_id])
 			queue_free()

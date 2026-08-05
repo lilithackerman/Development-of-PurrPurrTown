@@ -1,0 +1,1355 @@
+[gd_scene format=3 uid="uid://kii4yb5yuv3b"]
+
+[ext_resource type="Script" uid="uid://cccikxhc42yqg" path="res://script/bag_ui.gd" id="1_4lbkj"]
+
+[node name="BagUI" type="CanvasLayer" unique_id=564245057]
+script = ExtResource("1_4lbkj")
+
+[node name="Panel" type="Panel" parent="." unique_id=815153445]
+offset_left = 72.0
+offset_top = 63.0
+offset_right = 1086.0
+offset_bottom = 598.0
+
+[node name="Label" type="Label" parent="Panel" unique_id=850892899]
+layout_mode = 0
+offset_left = 330.0
+offset_top = 9.0
+offset_right = 703.0
+offset_bottom = 50.0
+text = "Bag"
+horizontal_alignment = 1
+
+[node name="GridContainer" type="GridContainer" parent="Panel" unique_id=1951897170]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 56.0
+offset_right = 990.0
+offset_bottom = 507.0
+columns = 13
+
+[node name="slot1" type="Panel" parent="Panel/GridContainer" unique_id=738257674]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot1" unique_id=1799745172]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot1" unique_id=1020339222]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot2" type="Panel" parent="Panel/GridContainer" unique_id=1978216801]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot2" unique_id=743447977]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot2" unique_id=1335736469]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot3" type="Panel" parent="Panel/GridContainer" unique_id=1117870153]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot3" unique_id=860278898]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot3" unique_id=881131760]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot4" type="Panel" parent="Panel/GridContainer" unique_id=1940781216]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot4" unique_id=727706101]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot4" unique_id=1052690660]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot5" type="Panel" parent="Panel/GridContainer" unique_id=788730061]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot5" unique_id=1513807136]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot5" unique_id=788749470]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot6" type="Panel" parent="Panel/GridContainer" unique_id=858082246]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot6" unique_id=1887321573]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot6" unique_id=715081627]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot7" type="Panel" parent="Panel/GridContainer" unique_id=1718720868]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot7" unique_id=2083249265]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot7" unique_id=856051591]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot8" type="Panel" parent="Panel/GridContainer" unique_id=1947822102]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot8" unique_id=1860238382]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot8" unique_id=819162279]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot9" type="Panel" parent="Panel/GridContainer" unique_id=1000348812]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot9" unique_id=1528365492]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot9" unique_id=1790713815]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot10" type="Panel" parent="Panel/GridContainer" unique_id=579270874]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot10" unique_id=1145739660]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot10" unique_id=2139546903]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot11" type="Panel" parent="Panel/GridContainer" unique_id=428501790]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot11" unique_id=1270598309]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot11" unique_id=891863778]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot12" type="Panel" parent="Panel/GridContainer" unique_id=167002842]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot12" unique_id=379957985]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot12" unique_id=1249557398]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot13" type="Panel" parent="Panel/GridContainer" unique_id=1890964861]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot13" unique_id=1633309048]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot13" unique_id=1125144580]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot14" type="Panel" parent="Panel/GridContainer" unique_id=2024385284]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot14" unique_id=1340973359]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot14" unique_id=1451433341]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot15" type="Panel" parent="Panel/GridContainer" unique_id=688674376]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot15" unique_id=299577953]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot15" unique_id=1524178165]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot16" type="Panel" parent="Panel/GridContainer" unique_id=1433729011]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot16" unique_id=1848804240]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot16" unique_id=865365514]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot17" type="Panel" parent="Panel/GridContainer" unique_id=65564793]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot17" unique_id=1359660402]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot17" unique_id=2053177582]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot18" type="Panel" parent="Panel/GridContainer" unique_id=1466953720]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot18" unique_id=212359806]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot18" unique_id=1221536599]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot19" type="Panel" parent="Panel/GridContainer" unique_id=396248205]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot19" unique_id=1634104122]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot19" unique_id=1191841572]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot20" type="Panel" parent="Panel/GridContainer" unique_id=102704513]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot20" unique_id=90386892]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot20" unique_id=941810558]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot21" type="Panel" parent="Panel/GridContainer" unique_id=914443806]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot21" unique_id=516180431]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot21" unique_id=2103630224]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot22" type="Panel" parent="Panel/GridContainer" unique_id=381728134]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot22" unique_id=563131609]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot22" unique_id=466418647]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot23" type="Panel" parent="Panel/GridContainer" unique_id=2144497241]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot23" unique_id=441808821]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot23" unique_id=1049301336]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot24" type="Panel" parent="Panel/GridContainer" unique_id=2140584528]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot24" unique_id=457050916]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot24" unique_id=1638625687]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot25" type="Panel" parent="Panel/GridContainer" unique_id=1527471147]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot25" unique_id=1598664798]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot25" unique_id=491303219]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot26" type="Panel" parent="Panel/GridContainer" unique_id=1967302276]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot26" unique_id=1619618912]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot26" unique_id=1434685302]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot27" type="Panel" parent="Panel/GridContainer" unique_id=382466803]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot27" unique_id=1456992469]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot27" unique_id=173100149]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot28" type="Panel" parent="Panel/GridContainer" unique_id=46257240]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot28" unique_id=1056152893]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot28" unique_id=248884644]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot29" type="Panel" parent="Panel/GridContainer" unique_id=1857176041]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot29" unique_id=1454552276]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot29" unique_id=1689146942]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot30" type="Panel" parent="Panel/GridContainer" unique_id=356692928]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot30" unique_id=1902516930]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot30" unique_id=824570961]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot31" type="Panel" parent="Panel/GridContainer" unique_id=1314775628]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot31" unique_id=1638078548]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot31" unique_id=781725046]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot32" type="Panel" parent="Panel/GridContainer" unique_id=165291612]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot32" unique_id=550275952]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot32" unique_id=735309502]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot33" type="Panel" parent="Panel/GridContainer" unique_id=1053796300]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot33" unique_id=1102409643]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot33" unique_id=1638708021]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot34" type="Panel" parent="Panel/GridContainer" unique_id=602055320]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot34" unique_id=1582750970]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot34" unique_id=332758839]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot35" type="Panel" parent="Panel/GridContainer" unique_id=1879874271]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot35" unique_id=1225190589]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot35" unique_id=421618761]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot36" type="Panel" parent="Panel/GridContainer" unique_id=1522868493]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot36" unique_id=1700586598]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot36" unique_id=1331049981]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot37" type="Panel" parent="Panel/GridContainer" unique_id=1512995749]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot37" unique_id=291384436]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot37" unique_id=1842204290]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot38" type="Panel" parent="Panel/GridContainer" unique_id=1500564579]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot38" unique_id=1034621701]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot38" unique_id=1759062833]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot39" type="Panel" parent="Panel/GridContainer" unique_id=1905047162]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot39" unique_id=853654680]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot39" unique_id=854407655]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot40" type="Panel" parent="Panel/GridContainer" unique_id=1276064407]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot40" unique_id=1800702091]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot40" unique_id=352777942]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot41" type="Panel" parent="Panel/GridContainer" unique_id=1427277447]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot41" unique_id=1210849828]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot41" unique_id=106612952]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot42" type="Panel" parent="Panel/GridContainer" unique_id=1352258252]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot42" unique_id=1114051818]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot42" unique_id=2023287017]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot43" type="Panel" parent="Panel/GridContainer" unique_id=1887760318]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot43" unique_id=39337449]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot43" unique_id=1451267703]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot44" type="Panel" parent="Panel/GridContainer" unique_id=933855351]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot44" unique_id=1565263281]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot44" unique_id=1244948171]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot45" type="Panel" parent="Panel/GridContainer" unique_id=946826237]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot45" unique_id=1733489919]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot45" unique_id=1764626865]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot46" type="Panel" parent="Panel/GridContainer" unique_id=1016288859]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot46" unique_id=11338104]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot46" unique_id=633490891]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot47" type="Panel" parent="Panel/GridContainer" unique_id=2107085488]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot47" unique_id=137450762]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot47" unique_id=1554866485]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot48" type="Panel" parent="Panel/GridContainer" unique_id=1468395278]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48" unique_id=1490284616]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48" unique_id=1674750682]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot49" type="Panel" parent="Panel/GridContainer" unique_id=1152630218]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot49" unique_id=1025860829]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot49" unique_id=890475404]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot50" type="Panel" parent="Panel/GridContainer" unique_id=169834037]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot50" unique_id=1583619434]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot50" unique_id=1288858986]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot51" type="Panel" parent="Panel/GridContainer" unique_id=1124309271]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot51" unique_id=367688879]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot51" unique_id=484767948]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot52" type="Panel" parent="Panel/GridContainer" unique_id=266442258]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot52" unique_id=1179382102]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot52" unique_id=1288826535]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot53" type="Panel" parent="Panel/GridContainer" unique_id=1475663801]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot53" unique_id=938734749]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot53" unique_id=251647899]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot54" type="Panel" parent="Panel/GridContainer" unique_id=438416282]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot54" unique_id=1702777555]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot54" unique_id=549730635]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot55" type="Panel" parent="Panel/GridContainer" unique_id=2071224931]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot55" unique_id=176506403]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot55" unique_id=506988339]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot56" type="Panel" parent="Panel/GridContainer" unique_id=1538276124]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot56" unique_id=536609606]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot56" unique_id=1834913291]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot57" type="Panel" parent="Panel/GridContainer" unique_id=1374764703]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot57" unique_id=1416306206]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot57" unique_id=1371429400]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot58" type="Panel" parent="Panel/GridContainer" unique_id=1948358268]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot58" unique_id=2072043697]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot58" unique_id=949359507]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot59" type="Panel" parent="Panel/GridContainer" unique_id=1782019834]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot59" unique_id=453795177]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot59" unique_id=22873684]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot60" type="Panel" parent="Panel/GridContainer" unique_id=1410888251]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot60" unique_id=385958736]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot60" unique_id=1719459920]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot61" type="Panel" parent="Panel/GridContainer" unique_id=220809687]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot61" unique_id=479415816]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot61" unique_id=1131512624]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot62" type="Panel" parent="Panel/GridContainer" unique_id=1462091256]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot62" unique_id=9935882]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot62" unique_id=1434608538]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot63" type="Panel" parent="Panel/GridContainer" unique_id=611254062]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot63" unique_id=482258701]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot63" unique_id=174985068]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot64" type="Panel" parent="Panel/GridContainer" unique_id=1540594439]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot64" unique_id=924956226]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot64" unique_id=630489823]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot65" type="Panel" parent="Panel/GridContainer" unique_id=1669906479]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot65" unique_id=198120925]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot65" unique_id=1850671844]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot66" type="Panel" parent="Panel/GridContainer" unique_id=53932519]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot66" unique_id=1349453945]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot66" unique_id=27788846]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot67" type="Panel" parent="Panel/GridContainer" unique_id=320607680]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot67" unique_id=430077439]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot67" unique_id=1233543468]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot68" type="Panel" parent="Panel/GridContainer" unique_id=186110630]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot68" unique_id=273055094]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot68" unique_id=1478820766]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot69" type="Panel" parent="Panel/GridContainer" unique_id=1251333495]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot69" unique_id=1260521707]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot69" unique_id=1824302043]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot70" type="Panel" parent="Panel/GridContainer" unique_id=1091640798]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot70" unique_id=1721094149]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot70" unique_id=1341854745]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot71" type="Panel" parent="Panel/GridContainer" unique_id=1419842052]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot71" unique_id=1740960832]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot71" unique_id=773587496]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot72" type="Panel" parent="Panel/GridContainer" unique_id=881201129]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot72" unique_id=1848413233]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot72" unique_id=1128120530]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot73" type="Panel" parent="Panel/GridContainer" unique_id=1722172821]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot73" unique_id=2042768148]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot73" unique_id=1989386997]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot74" type="Panel" parent="Panel/GridContainer" unique_id=1645070777]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot74" unique_id=1256337648]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot74" unique_id=1297464484]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot75" type="Panel" parent="Panel/GridContainer" unique_id=1489227067]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot75" unique_id=304945987]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot75" unique_id=814372681]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot76" type="Panel" parent="Panel/GridContainer" unique_id=1887542316]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot76" unique_id=789968142]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot76" unique_id=1082758102]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot77" type="Panel" parent="Panel/GridContainer" unique_id=781575892]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot77" unique_id=612474195]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot77" unique_id=1341961700]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="slot78" type="Panel" parent="Panel/GridContainer" unique_id=1125300457]
+self_modulate = Color(1, 0, 0, 1)
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot78" unique_id=602451041]
+layout_mode = 0
+offset_left = 9.0
+offset_top = -142.0
+offset_right = 49.0
+offset_bottom = -102.0
+
+[node name="Label" type="Label" parent="Panel/GridContainer/slot78" unique_id=1597539524]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

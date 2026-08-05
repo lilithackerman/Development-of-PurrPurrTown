@@ -8,8 +8,10 @@
 [node name="CanvasLayer" type="CanvasLayer" unique_id=1728958881]
 
 [node name="Panel" type="Panel" parent="." unique_id=1876906367]
-offset_right = 1158.0
-offset_bottom = 658.0
+offset_left = 40.0
+offset_top = -2.0
+offset_right = 1198.0
+offset_bottom = 656.0
 script = ExtResource("1_ukgro")
 
 [node name="Button" type="Button" parent="Panel" unique_id=1326867075]
