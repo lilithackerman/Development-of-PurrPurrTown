@@ -6,27 +6,27 @@
 script = ExtResource("1_4lbkj")
 
 [node name="Panel" type="Panel" parent="." unique_id=815153445]
-offset_left = 72.0
-offset_top = 63.0
-offset_right = 1086.0
-offset_bottom = 598.0
+offset_left = 424.0
+offset_top = 218.0
+offset_right = 1567.641
+offset_bottom = 798.0
 
 [node name="Label" type="Label" parent="Panel" unique_id=850892899]
 layout_mode = 0
-offset_left = 330.0
-offset_top = 9.0
-offset_right = 703.0
-offset_bottom = 50.0
+offset_left = 373.0
+offset_top = 18.0
+offset_right = 746.0
+offset_bottom = 59.0
 text = "Bag"
 horizontal_alignment = 1
 
 [node name="GridContainer" type="GridContainer" parent="Panel" unique_id=1951897170]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 56.0
-offset_right = 990.0
-offset_bottom = 507.0
-columns = 13
+offset_left = 133.0
+offset_top = 97.0
+offset_right = 1065.0
+offset_bottom = 519.0
+columns = 12
 
 [node name="slot1" type="Panel" parent="Panel/GridContainer" unique_id=738257674]
 self_modulate = Color(1, 0, 0, 1)
@@ -45,1311 +45,1209 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot2" type="Panel" parent="Panel/GridContainer" unique_id=1978216801]
+[node name="slot2" type="Panel" parent="Panel/GridContainer" unique_id=263862268]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot2" unique_id=743447977]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot2" unique_id=1521379568]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot2" unique_id=1335736469]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot2" unique_id=339435048]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot3" type="Panel" parent="Panel/GridContainer" unique_id=1117870153]
+[node name="slot3" type="Panel" parent="Panel/GridContainer" unique_id=1423160914]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot3" unique_id=860278898]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot3" unique_id=87764724]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot3" unique_id=881131760]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot3" unique_id=1347946532]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot4" type="Panel" parent="Panel/GridContainer" unique_id=1940781216]
+[node name="slot4" type="Panel" parent="Panel/GridContainer" unique_id=1233843036]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot4" unique_id=727706101]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot4" unique_id=1971613978]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot4" unique_id=1052690660]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot4" unique_id=1342613012]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot5" type="Panel" parent="Panel/GridContainer" unique_id=788730061]
+[node name="slot5" type="Panel" parent="Panel/GridContainer" unique_id=2094605376]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot5" unique_id=1513807136]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot5" unique_id=2026544402]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot5" unique_id=788749470]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot5" unique_id=69640620]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot6" type="Panel" parent="Panel/GridContainer" unique_id=858082246]
+[node name="slot6" type="Panel" parent="Panel/GridContainer" unique_id=2022865824]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot6" unique_id=1887321573]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot6" unique_id=462784291]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot6" unique_id=715081627]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot6" unique_id=922253945]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot7" type="Panel" parent="Panel/GridContainer" unique_id=1718720868]
+[node name="slot7" type="Panel" parent="Panel/GridContainer" unique_id=630909698]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot7" unique_id=2083249265]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot7" unique_id=1795272025]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot7" unique_id=856051591]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot7" unique_id=948707987]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot8" type="Panel" parent="Panel/GridContainer" unique_id=1947822102]
+[node name="slot8" type="Panel" parent="Panel/GridContainer" unique_id=515496090]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot8" unique_id=1860238382]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot8" unique_id=909326290]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot8" unique_id=819162279]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot8" unique_id=1736135190]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot9" type="Panel" parent="Panel/GridContainer" unique_id=1000348812]
+[node name="slot9" type="Panel" parent="Panel/GridContainer" unique_id=360493053]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot9" unique_id=1528365492]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot9" unique_id=205189306]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot9" unique_id=1790713815]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot9" unique_id=675062472]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot10" type="Panel" parent="Panel/GridContainer" unique_id=579270874]
+[node name="slot10" type="Panel" parent="Panel/GridContainer" unique_id=1963433094]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot10" unique_id=1145739660]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot10" unique_id=1425363613]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot10" unique_id=2139546903]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot10" unique_id=804473445]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot11" type="Panel" parent="Panel/GridContainer" unique_id=428501790]
+[node name="slot11" type="Panel" parent="Panel/GridContainer" unique_id=651996535]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot11" unique_id=1270598309]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot11" unique_id=617694589]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot11" unique_id=891863778]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot11" unique_id=655743386]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot12" type="Panel" parent="Panel/GridContainer" unique_id=167002842]
+[node name="slot12" type="Panel" parent="Panel/GridContainer" unique_id=1694747491]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot12" unique_id=379957985]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot12" unique_id=1715114718]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot12" unique_id=1249557398]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot12" unique_id=1718488076]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot13" type="Panel" parent="Panel/GridContainer" unique_id=1890964861]
+[node name="slot13" type="Panel" parent="Panel/GridContainer" unique_id=1868431131]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot13" unique_id=1633309048]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot13" unique_id=1716182424]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot13" unique_id=1125144580]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot13" unique_id=584403213]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot14" type="Panel" parent="Panel/GridContainer" unique_id=2024385284]
+[node name="slot14" type="Panel" parent="Panel/GridContainer" unique_id=1080998295]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot14" unique_id=1340973359]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot14" unique_id=658613918]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot14" unique_id=1451433341]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot14" unique_id=1719667359]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot15" type="Panel" parent="Panel/GridContainer" unique_id=688674376]
+[node name="slot15" type="Panel" parent="Panel/GridContainer" unique_id=1929179285]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot15" unique_id=299577953]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot15" unique_id=1477315190]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot15" unique_id=1524178165]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot15" unique_id=91400351]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot16" type="Panel" parent="Panel/GridContainer" unique_id=1433729011]
+[node name="slot16" type="Panel" parent="Panel/GridContainer" unique_id=344592409]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot16" unique_id=1848804240]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot16" unique_id=1164950824]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot16" unique_id=865365514]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot16" unique_id=1576122244]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot17" type="Panel" parent="Panel/GridContainer" unique_id=65564793]
+[node name="slot17" type="Panel" parent="Panel/GridContainer" unique_id=206479397]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot17" unique_id=1359660402]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot17" unique_id=617557362]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot17" unique_id=2053177582]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot17" unique_id=1263688794]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot18" type="Panel" parent="Panel/GridContainer" unique_id=1466953720]
+[node name="slot18" type="Panel" parent="Panel/GridContainer" unique_id=379229302]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot18" unique_id=212359806]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot18" unique_id=2129427103]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot18" unique_id=1221536599]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot18" unique_id=1693841090]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot19" type="Panel" parent="Panel/GridContainer" unique_id=396248205]
+[node name="slot19" type="Panel" parent="Panel/GridContainer" unique_id=1064322521]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot19" unique_id=1634104122]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot19" unique_id=1521008486]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot19" unique_id=1191841572]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot19" unique_id=1686204836]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot20" type="Panel" parent="Panel/GridContainer" unique_id=102704513]
+[node name="slot20" type="Panel" parent="Panel/GridContainer" unique_id=1481998627]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot20" unique_id=90386892]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot20" unique_id=730162320]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot20" unique_id=941810558]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot20" unique_id=238685506]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot21" type="Panel" parent="Panel/GridContainer" unique_id=914443806]
+[node name="slot21" type="Panel" parent="Panel/GridContainer" unique_id=1912606719]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot21" unique_id=516180431]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot21" unique_id=2104125477]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot21" unique_id=2103630224]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot21" unique_id=1633964959]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot22" type="Panel" parent="Panel/GridContainer" unique_id=381728134]
+[node name="slot22" type="Panel" parent="Panel/GridContainer" unique_id=1817080352]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot22" unique_id=563131609]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot22" unique_id=1579133681]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot22" unique_id=466418647]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot22" unique_id=198281777]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot23" type="Panel" parent="Panel/GridContainer" unique_id=2144497241]
+[node name="slot23" type="Panel" parent="Panel/GridContainer" unique_id=398638858]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot23" unique_id=441808821]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot23" unique_id=142445642]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot23" unique_id=1049301336]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot23" unique_id=791290500]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot24" type="Panel" parent="Panel/GridContainer" unique_id=2140584528]
+[node name="slot24" type="Panel" parent="Panel/GridContainer" unique_id=2034686647]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot24" unique_id=457050916]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot24" unique_id=557342352]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot24" unique_id=1638625687]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot24" unique_id=949823503]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot25" type="Panel" parent="Panel/GridContainer" unique_id=1527471147]
+[node name="slot25" type="Panel" parent="Panel/GridContainer" unique_id=606316564]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot25" unique_id=1598664798]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot25" unique_id=1779235864]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot25" unique_id=491303219]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot25" unique_id=962766720]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot26" type="Panel" parent="Panel/GridContainer" unique_id=1967302276]
+[node name="slot26" type="Panel" parent="Panel/GridContainer" unique_id=1826338967]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot26" unique_id=1619618912]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot26" unique_id=828823336]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot26" unique_id=1434685302]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot26" unique_id=2048260488]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot27" type="Panel" parent="Panel/GridContainer" unique_id=382466803]
+[node name="slot27" type="Panel" parent="Panel/GridContainer" unique_id=1884745510]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot27" unique_id=1456992469]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot27" unique_id=984862896]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot27" unique_id=173100149]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot27" unique_id=1615274840]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot28" type="Panel" parent="Panel/GridContainer" unique_id=46257240]
+[node name="slot28" type="Panel" parent="Panel/GridContainer" unique_id=561984179]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot28" unique_id=1056152893]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot28" unique_id=2044344938]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot28" unique_id=248884644]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot28" unique_id=588230684]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot29" type="Panel" parent="Panel/GridContainer" unique_id=1857176041]
+[node name="slot29" type="Panel" parent="Panel/GridContainer" unique_id=268853561]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot29" unique_id=1454552276]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot29" unique_id=921680047]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot29" unique_id=1689146942]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot29" unique_id=704091118]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot30" type="Panel" parent="Panel/GridContainer" unique_id=356692928]
+[node name="slot30" type="Panel" parent="Panel/GridContainer" unique_id=574171814]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot30" unique_id=1902516930]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot30" unique_id=2005150786]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot30" unique_id=824570961]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot30" unique_id=2116560798]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot31" type="Panel" parent="Panel/GridContainer" unique_id=1314775628]
+[node name="slot31" type="Panel" parent="Panel/GridContainer" unique_id=1195392112]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot31" unique_id=1638078548]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot31" unique_id=326560870]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot31" unique_id=781725046]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot31" unique_id=1845692033]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot32" type="Panel" parent="Panel/GridContainer" unique_id=165291612]
+[node name="slot32" type="Panel" parent="Panel/GridContainer" unique_id=184693351]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot32" unique_id=550275952]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot32" unique_id=1168344099]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot32" unique_id=735309502]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot32" unique_id=2002429022]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot33" type="Panel" parent="Panel/GridContainer" unique_id=1053796300]
+[node name="slot33" type="Panel" parent="Panel/GridContainer" unique_id=1209936165]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot33" unique_id=1102409643]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot33" unique_id=1511942023]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot33" unique_id=1638708021]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot33" unique_id=2109664869]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot34" type="Panel" parent="Panel/GridContainer" unique_id=602055320]
+[node name="slot34" type="Panel" parent="Panel/GridContainer" unique_id=1740228463]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot34" unique_id=1582750970]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot34" unique_id=1362899344]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot34" unique_id=332758839]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot34" unique_id=2032871331]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot35" type="Panel" parent="Panel/GridContainer" unique_id=1879874271]
+[node name="slot35" type="Panel" parent="Panel/GridContainer" unique_id=956561913]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot35" unique_id=1225190589]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot35" unique_id=1426753928]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot35" unique_id=421618761]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot35" unique_id=1485838358]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot36" type="Panel" parent="Panel/GridContainer" unique_id=1522868493]
+[node name="slot36" type="Panel" parent="Panel/GridContainer" unique_id=1185029465]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot36" unique_id=1700586598]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot36" unique_id=451511456]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot36" unique_id=1331049981]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot36" unique_id=391054525]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot37" type="Panel" parent="Panel/GridContainer" unique_id=1512995749]
+[node name="slot37" type="Panel" parent="Panel/GridContainer" unique_id=1976856285]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot37" unique_id=291384436]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot37" unique_id=738000064]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot37" unique_id=1842204290]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot37" unique_id=174980433]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot38" type="Panel" parent="Panel/GridContainer" unique_id=1500564579]
+[node name="slot38" type="Panel" parent="Panel/GridContainer" unique_id=955985295]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot38" unique_id=1034621701]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot38" unique_id=704777437]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot38" unique_id=1759062833]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot38" unique_id=1781448215]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot39" type="Panel" parent="Panel/GridContainer" unique_id=1905047162]
+[node name="slot39" type="Panel" parent="Panel/GridContainer" unique_id=368509812]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot39" unique_id=853654680]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot39" unique_id=2060792877]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot39" unique_id=854407655]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot39" unique_id=717425892]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot40" type="Panel" parent="Panel/GridContainer" unique_id=1276064407]
+[node name="slot40" type="Panel" parent="Panel/GridContainer" unique_id=1517976607]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot40" unique_id=1800702091]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot40" unique_id=1907536427]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot40" unique_id=352777942]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot40" unique_id=1846169756]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot41" type="Panel" parent="Panel/GridContainer" unique_id=1427277447]
+[node name="slot41" type="Panel" parent="Panel/GridContainer" unique_id=1135100565]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot41" unique_id=1210849828]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot41" unique_id=642186133]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot41" unique_id=106612952]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot41" unique_id=705822374]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot42" type="Panel" parent="Panel/GridContainer" unique_id=1352258252]
+[node name="slot42" type="Panel" parent="Panel/GridContainer" unique_id=915960093]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot42" unique_id=1114051818]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot42" unique_id=1479618528]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot42" unique_id=2023287017]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot42" unique_id=1810428959]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot43" type="Panel" parent="Panel/GridContainer" unique_id=1887760318]
+[node name="slot43" type="Panel" parent="Panel/GridContainer" unique_id=1451202177]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot43" unique_id=39337449]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot43" unique_id=308073637]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot43" unique_id=1451267703]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot43" unique_id=1082919659]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot44" type="Panel" parent="Panel/GridContainer" unique_id=933855351]
+[node name="slot44" type="Panel" parent="Panel/GridContainer" unique_id=1133209289]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot44" unique_id=1565263281]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot44" unique_id=294614525]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot44" unique_id=1244948171]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot44" unique_id=1605312266]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot45" type="Panel" parent="Panel/GridContainer" unique_id=946826237]
+[node name="slot45" type="Panel" parent="Panel/GridContainer" unique_id=1690284364]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot45" unique_id=1733489919]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot45" unique_id=2014835346]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot45" unique_id=1764626865]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot45" unique_id=926954904]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot46" type="Panel" parent="Panel/GridContainer" unique_id=1016288859]
+[node name="slot46" type="Panel" parent="Panel/GridContainer" unique_id=103022592]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot46" unique_id=11338104]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot46" unique_id=1261784736]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot46" unique_id=633490891]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot46" unique_id=180473396]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot47" type="Panel" parent="Panel/GridContainer" unique_id=2107085488]
+[node name="slot47" type="Panel" parent="Panel/GridContainer" unique_id=1946941936]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot47" unique_id=137450762]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot47" unique_id=1621583328]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot47" unique_id=1554866485]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot47" unique_id=706324467]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot48" type="Panel" parent="Panel/GridContainer" unique_id=1468395278]
+[node name="slot48" type="Panel" parent="Panel/GridContainer" unique_id=1953636515]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48" unique_id=1490284616]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48" unique_id=1495225624]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot48" unique_id=1674750682]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48" unique_id=399495825]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot49" type="Panel" parent="Panel/GridContainer" unique_id=1152630218]
+[node name="slot1" type="Panel" parent="Panel/GridContainer/slot48" unique_id=501293582]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot49" unique_id=1025860829]
-layout_mode = 0
-offset_left = 9.0
-offset_top = -142.0
-offset_right = 49.0
-offset_bottom = -102.0
-
-[node name="Label" type="Label" parent="Panel/GridContainer/slot49" unique_id=890475404]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-
-[node name="slot50" type="Panel" parent="Panel/GridContainer" unique_id=169834037]
-self_modulate = Color(1, 0, 0, 1)
-custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot50" unique_id=1583619434]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot1" unique_id=1132008594]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot50" unique_id=1288858986]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot1" unique_id=639487771]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot51" type="Panel" parent="Panel/GridContainer" unique_id=1124309271]
+[node name="slot2" type="Panel" parent="Panel/GridContainer/slot48" unique_id=1756982084]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot51" unique_id=367688879]
-layout_mode = 0
-offset_left = 9.0
-offset_top = -142.0
-offset_right = 49.0
-offset_bottom = -102.0
-
-[node name="Label" type="Label" parent="Panel/GridContainer/slot51" unique_id=484767948]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
 
-[node name="slot52" type="Panel" parent="Panel/GridContainer" unique_id=266442258]
-self_modulate = Color(1, 0, 0, 1)
-custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot52" unique_id=1179382102]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot2" unique_id=1333220081]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot52" unique_id=1288826535]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot2" unique_id=1440116712]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot53" type="Panel" parent="Panel/GridContainer" unique_id=1475663801]
+[node name="slot3" type="Panel" parent="Panel/GridContainer/slot48" unique_id=467958154]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot53" unique_id=938734749]
-layout_mode = 0
-offset_left = 9.0
-offset_top = -142.0
-offset_right = 49.0
-offset_bottom = -102.0
-
-[node name="Label" type="Label" parent="Panel/GridContainer/slot53" unique_id=251647899]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-
-[node name="slot54" type="Panel" parent="Panel/GridContainer" unique_id=438416282]
-self_modulate = Color(1, 0, 0, 1)
-custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot54" unique_id=1702777555]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot3" unique_id=272563669]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot54" unique_id=549730635]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot3" unique_id=832103782]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot55" type="Panel" parent="Panel/GridContainer" unique_id=2071224931]
+[node name="slot4" type="Panel" parent="Panel/GridContainer/slot48" unique_id=1422967618]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot55" unique_id=176506403]
-layout_mode = 0
-offset_left = 9.0
-offset_top = -142.0
-offset_right = 49.0
-offset_bottom = -102.0
-
-[node name="Label" type="Label" parent="Panel/GridContainer/slot55" unique_id=506988339]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-
-[node name="slot56" type="Panel" parent="Panel/GridContainer" unique_id=1538276124]
-self_modulate = Color(1, 0, 0, 1)
-custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot56" unique_id=536609606]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot4" unique_id=109690299]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot56" unique_id=1834913291]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot4" unique_id=376119783]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot57" type="Panel" parent="Panel/GridContainer" unique_id=1374764703]
+[node name="slot5" type="Panel" parent="Panel/GridContainer/slot48" unique_id=330689747]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot57" unique_id=1416306206]
-layout_mode = 0
-offset_left = 9.0
-offset_top = -142.0
-offset_right = 49.0
-offset_bottom = -102.0
-
-[node name="Label" type="Label" parent="Panel/GridContainer/slot57" unique_id=1371429400]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
 
-[node name="slot58" type="Panel" parent="Panel/GridContainer" unique_id=1948358268]
-self_modulate = Color(1, 0, 0, 1)
-custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot58" unique_id=2072043697]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot5" unique_id=91476778]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot58" unique_id=949359507]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot5" unique_id=1899371326]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot59" type="Panel" parent="Panel/GridContainer" unique_id=1782019834]
+[node name="slot6" type="Panel" parent="Panel/GridContainer/slot48" unique_id=1793860109]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
-
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot59" unique_id=453795177]
 layout_mode = 0
-offset_left = 9.0
-offset_top = -142.0
-offset_right = 49.0
-offset_bottom = -102.0
-
-[node name="Label" type="Label" parent="Panel/GridContainer/slot59" unique_id=22873684]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-
-[node name="slot60" type="Panel" parent="Panel/GridContainer" unique_id=1410888251]
-self_modulate = Color(1, 0, 0, 1)
-custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot60" unique_id=385958736]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot6" unique_id=299273245]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot60" unique_id=1719459920]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot6" unique_id=1404565298]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot61" type="Panel" parent="Panel/GridContainer" unique_id=220809687]
+[node name="slot7" type="Panel" parent="Panel/GridContainer/slot48" unique_id=410335705]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
+layout_mode = 0
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot61" unique_id=479415816]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot7" unique_id=1059184815]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot61" unique_id=1131512624]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot7" unique_id=474804213]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot62" type="Panel" parent="Panel/GridContainer" unique_id=1462091256]
+[node name="slot8" type="Panel" parent="Panel/GridContainer/slot48" unique_id=1953644411]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
+layout_mode = 0
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot62" unique_id=9935882]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot8" unique_id=844270280]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot62" unique_id=1434608538]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot8" unique_id=662913766]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot63" type="Panel" parent="Panel/GridContainer" unique_id=611254062]
+[node name="slot9" type="Panel" parent="Panel/GridContainer/slot48" unique_id=1664822039]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
+layout_mode = 0
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot63" unique_id=482258701]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot9" unique_id=1478523666]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot63" unique_id=174985068]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot9" unique_id=1369461523]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot64" type="Panel" parent="Panel/GridContainer" unique_id=1540594439]
+[node name="slot10" type="Panel" parent="Panel/GridContainer/slot48" unique_id=1356410409]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
+layout_mode = 0
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot64" unique_id=924956226]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot10" unique_id=1012345057]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot64" unique_id=630489823]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot10" unique_id=1204772096]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot65" type="Panel" parent="Panel/GridContainer" unique_id=1669906479]
+[node name="slot11" type="Panel" parent="Panel/GridContainer/slot48" unique_id=437614478]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
+layout_mode = 0
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot65" unique_id=198120925]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot11" unique_id=1832835171]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot65" unique_id=1850671844]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot11" unique_id=534821100]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot66" type="Panel" parent="Panel/GridContainer" unique_id=53932519]
+[node name="slot12" type="Panel" parent="Panel/GridContainer/slot48" unique_id=402416130]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
-layout_mode = 2
+layout_mode = 0
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot66" unique_id=1349453945]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot48/slot12" unique_id=100610647]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot66" unique_id=27788846]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot48/slot12" unique_id=751514078]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot67" type="Panel" parent="Panel/GridContainer" unique_id=320607680]
+[node name="slot49" type="Panel" parent="Panel/GridContainer" unique_id=233139820]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot67" unique_id=430077439]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot49" unique_id=426736140]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot67" unique_id=1233543468]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot49" unique_id=824170379]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot68" type="Panel" parent="Panel/GridContainer" unique_id=186110630]
+[node name="slot50" type="Panel" parent="Panel/GridContainer" unique_id=1023150200]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot68" unique_id=273055094]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot50" unique_id=317431303]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot68" unique_id=1478820766]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot50" unique_id=1595582174]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot69" type="Panel" parent="Panel/GridContainer" unique_id=1251333495]
+[node name="slot51" type="Panel" parent="Panel/GridContainer" unique_id=234133714]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot69" unique_id=1260521707]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot51" unique_id=1684296546]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot69" unique_id=1824302043]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot51" unique_id=1117881493]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot70" type="Panel" parent="Panel/GridContainer" unique_id=1091640798]
+[node name="slot52" type="Panel" parent="Panel/GridContainer" unique_id=847285690]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot70" unique_id=1721094149]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot52" unique_id=1461079]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot70" unique_id=1341854745]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot52" unique_id=967464035]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot71" type="Panel" parent="Panel/GridContainer" unique_id=1419842052]
+[node name="slot53" type="Panel" parent="Panel/GridContainer" unique_id=364434862]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot71" unique_id=1740960832]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot53" unique_id=603038424]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot71" unique_id=773587496]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot53" unique_id=104041274]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot72" type="Panel" parent="Panel/GridContainer" unique_id=881201129]
+[node name="slot54" type="Panel" parent="Panel/GridContainer" unique_id=155313149]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot72" unique_id=1848413233]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot54" unique_id=513379725]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot72" unique_id=1128120530]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot54" unique_id=288091698]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot73" type="Panel" parent="Panel/GridContainer" unique_id=1722172821]
+[node name="slot55" type="Panel" parent="Panel/GridContainer" unique_id=365979842]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot73" unique_id=2042768148]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot55" unique_id=378031316]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot73" unique_id=1989386997]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot55" unique_id=280242004]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot74" type="Panel" parent="Panel/GridContainer" unique_id=1645070777]
+[node name="slot56" type="Panel" parent="Panel/GridContainer" unique_id=979952672]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot74" unique_id=1256337648]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot56" unique_id=2040604890]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot74" unique_id=1297464484]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot56" unique_id=2041218952]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot75" type="Panel" parent="Panel/GridContainer" unique_id=1489227067]
+[node name="slot57" type="Panel" parent="Panel/GridContainer" unique_id=1667620147]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot75" unique_id=304945987]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot57" unique_id=68713506]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot75" unique_id=814372681]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot57" unique_id=415100809]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot76" type="Panel" parent="Panel/GridContainer" unique_id=1887542316]
+[node name="slot58" type="Panel" parent="Panel/GridContainer" unique_id=1966694436]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot76" unique_id=789968142]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot58" unique_id=249122440]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot76" unique_id=1082758102]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot58" unique_id=956638335]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot77" type="Panel" parent="Panel/GridContainer" unique_id=781575892]
+[node name="slot59" type="Panel" parent="Panel/GridContainer" unique_id=302528191]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot77" unique_id=612474195]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot59" unique_id=80155439]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot77" unique_id=1341961700]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot59" unique_id=1096642402]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="slot78" type="Panel" parent="Panel/GridContainer" unique_id=1125300457]
+[node name="slot60" type="Panel" parent="Panel/GridContainer" unique_id=490829]
 self_modulate = Color(1, 0, 0, 1)
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot78" unique_id=602451041]
+[node name="TextureRect" type="TextureRect" parent="Panel/GridContainer/slot60" unique_id=1139614734]
 layout_mode = 0
 offset_left = 9.0
 offset_top = -142.0
 offset_right = 49.0
 offset_bottom = -102.0
 
-[node name="Label" type="Label" parent="Panel/GridContainer/slot78" unique_id=1597539524]
+[node name="Label" type="Label" parent="Panel/GridContainer/slot60" unique_id=538815090]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0

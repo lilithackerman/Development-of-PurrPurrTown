@@ -8,60 +8,60 @@
 [node name="CanvasLayer" type="CanvasLayer" unique_id=1728958881]
 
 [node name="Panel" type="Panel" parent="." unique_id=1876906367]
-offset_left = 40.0
-offset_top = -2.0
-offset_right = 1198.0
-offset_bottom = 656.0
+offset_left = -13.0
+offset_top = -11.0
+offset_right = 1926.0
+offset_bottom = 1094.0
 script = ExtResource("1_ukgro")
 
 [node name="Button" type="Button" parent="Panel" unique_id=1326867075]
 layout_mode = 0
-offset_left = 89.0
-offset_top = 406.0
-offset_right = 146.0
-offset_bottom = 449.0
+offset_left = 1777.0
+offset_top = 45.0
+offset_right = 1834.0
+offset_bottom = 88.0
 
 [node name="TextureRect2" type="TextureRect" parent="Panel" unique_id=852685538]
 layout_mode = 0
-offset_left = 37.0
-offset_top = 433.0
-offset_right = 75800050.0
-offset_bottom = 21600432.0
+offset_left = 153.0
+offset_top = 615.00006
+offset_right = 133465504.0
+offset_bottom = 41700612.0
 scale = Vector2(1e-05, 1e-05)
 texture = ExtResource("2_sxq3l")
 
 [node name="TextureRect3" type="TextureRect" parent="Panel" unique_id=402439325]
 layout_mode = 0
-offset_left = 711.0
-offset_top = 255.0
-offset_right = 18600716.0
-offset_bottom = 40900260.0
+offset_left = 1310.0
+offset_top = 277.0
+offset_right = 35901312.0
+offset_bottom = 78941670.0
 scale = Vector2(1e-05, 1e-05)
 texture = ExtResource("3_d50np")
 
 [node name="TextureRect" type="TextureRect" parent="Panel" unique_id=1987647063]
 layout_mode = 0
-offset_left = 800.00006
-offset_top = 468.00003
-offset_right = 12500792.0
-offset_bottom = 16800468.0
+offset_left = 1538.0001
+offset_top = 731.00006
+offset_right = 22201530.0
+offset_bottom = 31200732.0
 scale = Vector2(1e-05, 1e-05)
 texture = ExtResource("3_qc0i0")
 
 [node name="TextLabel" type="Label" parent="Panel" unique_id=79497131]
 layout_mode = 0
-offset_left = 75.0
-offset_top = 501.0
-offset_right = 756.0
-offset_bottom = 606.0
+offset_left = 348.0
+offset_top = 752.0
+offset_right = 1333.8286
+offset_bottom = 904.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 
 [node name="NameLabel" type="Label" parent="Panel" unique_id=429565707]
 layout_mode = 0
-offset_left = 826.0
-offset_top = 507.0
-offset_right = 878.0
-offset_bottom = 602.0
+offset_left = 1604.0
+offset_top = 817.0
+offset_right = 1678.0
+offset_bottom = 978.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 
 [connection signal="pressed" from="Panel/Button" to="Panel" method="_on_close_button_pressed"]

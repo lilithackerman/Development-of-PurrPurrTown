@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://myxk548tbirx"]
+
+[ext_resource type="Script" uid="uid://bri0wcspnadf2" path="res://script/gold_ui.gd" id="1_2rcu2"]
+[ext_resource type="Texture2D" uid="uid://dg8iwnj1we5qa" path="res://img/gold.png" id="1_lbfmc"]
+
+[node name="GoldUI" type="CanvasLayer" unique_id=1968828674]
+script = ExtResource("1_2rcu2")
+
+[node name="GoldPanel" type="Panel" parent="." unique_id=542536745]
+offset_left = 1700.0
+offset_top = 20.0
+offset_right = 1906.0
+offset_bottom = 76.0
+
+[node name="GoldIcon" type="TextureRect" parent="GoldPanel" unique_id=2601448]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 3.0
+offset_right = 59.0
+offset_bottom = 54.0
+texture = ExtResource("1_lbfmc")
+
+[node name="GoldLabel" type="Label" parent="GoldPanel" unique_id=1544998666]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 14.0
+offset_right = 198.0
+offset_bottom = 44.0
