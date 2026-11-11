@@ -6,9 +6,9 @@
 [ext_resource type="Texture2D" uid="uid://53w7e0ff6gw2" path="res://img/测试.png" id="4_1bvp3"]
 [ext_resource type="Script" uid="uid://e4pwsgjf4lvy" path="res://script/area_2d.gd" id="5_7mycd"]
 [ext_resource type="Texture2D" uid="uid://cflpdth28wi51" path="res://img/乌乌立绘.png" id="5_lquwl"]
-[ext_resource type="PackedScene" uid="uid://b3yklfup5mmv3" path="res://Pickup_Berry.tscn" id="7_5vw27"]
-[ext_resource type="PackedScene" uid="uid://kii4yb5yuv3b" path="res://BagUI.tscn" id="8_5vw27"]
-[ext_resource type="PackedScene" uid="uid://myxk548tbirx" path="res://GoldUI.tscn" id="9_kek77"]
+[ext_resource type="PackedScene" uid="uid://b3yklfup5mmv3" path="res://tscn/Pickup_Berry.tscn" id="7_5vw27"]
+[ext_resource type="PackedScene" uid="uid://kii4yb5yuv3b" path="res://tscn/BagUI.tscn" id="8_5vw27"]
+[ext_resource type="PackedScene" uid="uid://myxk548tbirx" path="res://tscn/GoldUI.tscn" id="9_kek77"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0xm2m"]
 texture = ExtResource("1_ig7tw")
@@ -563,8 +563,11 @@ position = Vector2(-2, 5)
 [node name="Area2D" type="Area2D" parent="Node2D/StaticBody2D2" unique_id=1341141487]
 position = Vector2(722, 7)
 script = ExtResource("5_7mycd")
+npc_id = "crow_merchant"
 npc_name = "乌乌"
-dialog_text = "还钱"
+npc_portrait = ExtResource("5_lquwl")
+dialog_text = "哟，是你啊。瓶子捡了不少？拿来吧，我给你算钱。"
+chat_lines = PackedStringArray("今天也是捡瓶子的好天气。", "废品价最近有点低，过两天再来吧。", "你那只猫又跑哪儿去了？", "镇东头新开了家小吃摊，去看看吧。")
 
 [node name="Sprite2D" type="Sprite2D" parent="Node2D/StaticBody2D2/Area2D" unique_id=1924592273]
 scale = Vector2(0.08, 0.08)
@@ -582,3 +585,12 @@ shape = SubResource("CapsuleShape2D_6fhyq")
 [node name="BagUI" parent="." unique_id=564245057 instance=ExtResource("8_5vw27")]
 
 [node name="GoldUI" parent="." unique_id=1968828674 instance=ExtResource("9_kek77")]
+
+[node name="Pickup_Bottle_A" parent="Node2D" instance=ExtResource("7_5vw27")]
+position = Vector2(300, -30)
+
+[node name="Pickup_Bottle_B" parent="Node2D" instance=ExtResource("7_5vw27")]
+position = Vector2(430, 40)
+
+[node name="Pickup_Bottle_C" parent="Node2D" instance=ExtResource("7_5vw27")]
+position = Vector2(620, 70)

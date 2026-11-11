@@ -1,67 +1,98 @@
-[gd_scene format=3 uid="uid://cwxdiohqqdkcr"]
+[gd_scene load_steps=6 format=3 uid="uid://cwxdiohqqdkcr"]
 
-[ext_resource type="Script" uid="uid://c37vsrry6w4f" path="res://script/panel.gd" id="1_ukgro"]
-[ext_resource type="Texture2D" uid="uid://cabe1jpgbotds" path="res://img/对话框.png" id="2_sxq3l"]
-[ext_resource type="Texture2D" uid="uid://cflpdth28wi51" path="res://img/乌乌立绘.png" id="3_d50np"]
-[ext_resource type="Texture2D" uid="uid://ij1vxfo0i27i" path="res://img/姓名框.png" id="3_qc0i0"]
+[ext_resource type="Script" path="res://script/dialog_ui.gd" id="1_dlgui"]
+[ext_resource type="Texture2D" path="res://img/对话框.png" id="2_box"]
+[ext_resource type="Texture2D" path="res://img/乌乌立绘.png" id="3_portrait"]
+[ext_resource type="Texture2D" path="res://img/姓名框.png" id="4_nameplate"]
 
-[node name="CanvasLayer" type="CanvasLayer" unique_id=1728958881]
+[node name="DialogUI" type="CanvasLayer"]
+script = ExtResource("1_dlgui")
 
-[node name="Panel" type="Panel" parent="." unique_id=1876906367]
-offset_left = -13.0
-offset_top = -11.0
-offset_right = 1926.0
-offset_bottom = 1094.0
-script = ExtResource("1_ukgro")
+[node name="Dim" type="ColorRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0, 0, 0, 0.25098)
 
-[node name="Button" type="Button" parent="Panel" unique_id=1326867075]
+[node name="Panel" type="Panel" parent="."]
+offset_left = 156.0
+offset_top = 430.0
+offset_right = 1764.0
+offset_bottom = 1056.0
+
+[node name="Background" type="TextureRect" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_box")
+expand_mode = 1
+stretch_mode = 0
+
+[node name="Portrait" type="TextureRect" parent="Panel"]
 layout_mode = 0
-offset_left = 1777.0
-offset_top = 45.0
-offset_right = 1834.0
-offset_bottom = 88.0
+offset_left = 1320.0
+offset_top = -370.0
+offset_right = 1770.0
+offset_bottom = 613.0
+texture = ExtResource("3_portrait")
+expand_mode = 1
+stretch_mode = 5
 
-[node name="TextureRect2" type="TextureRect" parent="Panel" unique_id=852685538]
+[node name="NamePlate" type="TextureRect" parent="Panel"]
 layout_mode = 0
-offset_left = 153.0
-offset_top = 615.00006
-offset_right = 133465504.0
-offset_bottom = 41700612.0
-scale = Vector2(1e-05, 1e-05)
-texture = ExtResource("2_sxq3l")
+offset_left = 1074.0
+offset_top = 130.0
+offset_right = 1304.0
+offset_bottom = 552.0
+texture = ExtResource("4_nameplate")
+expand_mode = 1
+stretch_mode = 5
 
-[node name="TextureRect3" type="TextureRect" parent="Panel" unique_id=402439325]
+[node name="NameLabel" type="Label" parent="Panel"]
 layout_mode = 0
-offset_left = 1310.0
-offset_top = 277.0
-offset_right = 35901312.0
-offset_bottom = 78941670.0
-scale = Vector2(1e-05, 1e-05)
-texture = ExtResource("3_d50np")
-
-[node name="TextureRect" type="TextureRect" parent="Panel" unique_id=1987647063]
-layout_mode = 0
-offset_left = 1538.0001
-offset_top = 731.00006
-offset_right = 22201530.0
-offset_bottom = 31200732.0
-scale = Vector2(1e-05, 1e-05)
-texture = ExtResource("3_qc0i0")
-
-[node name="TextLabel" type="Label" parent="Panel" unique_id=79497131]
-layout_mode = 0
-offset_left = 348.0
-offset_top = 752.0
-offset_right = 1333.8286
-offset_bottom = 904.0
+offset_left = 1074.0
+offset_top = 130.0
+offset_right = 1304.0
+offset_bottom = 552.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 26
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
 
-[node name="NameLabel" type="Label" parent="Panel" unique_id=429565707]
+[node name="TextLabel" type="Label" parent="Panel"]
 layout_mode = 0
-offset_left = 1604.0
-offset_top = 817.0
-offset_right = 1678.0
-offset_bottom = 978.0
+offset_left = 64.0
+offset_top = 200.0
+offset_right = 1004.0
+offset_bottom = 460.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 28
+autowrap_mode = 3
+vertical_alignment = 1
 
-[connection signal="pressed" from="Panel/Button" to="Panel" method="_on_close_button_pressed"]
+[node name="ChatButton" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 500.0
+offset_right = 224.0
+offset_bottom = 552.0
+text = "闲聊"
+
+[node name="TradeButton" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 244.0
+offset_top = 500.0
+offset_right = 484.0
+offset_bottom = 552.0
+text = "我要卖点东西"
+
+[node name="CloseButton" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 1540.0
+offset_top = 20.0
+offset_right = 1588.0
+offset_bottom = 68.0
+text = "×"
